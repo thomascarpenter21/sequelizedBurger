@@ -1,0 +1,29 @@
+{
+  "name": "sequelizedBurger",
+  "version": "1.0.0",
+  "description": "The goal of this application is to convert my Burger application that is using MySQL to Sequelize.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomascarpenter21/sequelizedBurger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomascarpenter21/sequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/thomascarpenter21/sequelizedBurger#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mysql": "^2.13.0",
+    "pg": "^6.2.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.0.0",
+    "sequelize-cli": "^2.7.0"
+  }
+}
